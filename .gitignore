@@ -1,0 +1,22 @@
+# QMS runtime artifacts (created by qms init)
+qms.config.json
+QMS/
+.claude/users/
+.claude/agents/
+.claude/hooks/
+.claude/sessions/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

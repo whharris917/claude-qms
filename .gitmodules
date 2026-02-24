@@ -1,0 +1,3 @@
+[submodule "qms-cli"]
+	path = qms-cli
+	url = https://github.com/whharris917/qms-cli.git
