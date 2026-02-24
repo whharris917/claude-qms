@@ -5,7 +5,7 @@ A Quality Management System for AI-assisted software development. Claude QMS pro
 ## Quick Start
 
 ```bash
-# Clone with submodule
+# Clone with submodules
 git clone --recurse-submodules https://github.com/whharris917/claude-qms.git
 cd claude-qms
 
@@ -42,22 +42,27 @@ claude-qms/
 ├── .gitmodules
 ├── .gitignore
 ├── README.md
+├── Quality-Manual/      # Submodule: QMS operational documentation
+│   ├── QMS-Policy.md     # Core policy decisions
+│   ├── START_HERE.md     # Decision tree for common workflows
+│   ├── QMS-Glossary.md   # Term definitions
+│   ├── guides/           # Operational guides
+│   └── types/            # Document type references
 └── qms-cli/             # Submodule: QMS CLI tooling
     ├── qms.py            # Main CLI entry point
     ├── commands/          # Command implementations
     ├── seed/              # Templates, agents, hooks seeded by init
-    ├── docs/              # Software documentation
-    └── manual/            # QMS operational documentation
+    └── docs/              # Software documentation
 ```
 
 ## Documentation
 
-After cloning, documentation is available in the `qms-cli/` submodule:
+After cloning, documentation is available at:
 
-- **Getting Started:** `qms-cli/docs/getting-started.md`
-- **CLI Reference:** `qms-cli/docs/cli-reference.md`
-- **QMS Manual:** `qms-cli/manual/START_HERE.md`
-- **QMS Policy:** `qms-cli/manual/QMS-Policy.md`
+- **Quality Manual:** `Quality-Manual/START_HERE.md` — How to operate the QMS
+- **QMS Policy:** `Quality-Manual/QMS-Policy.md` — Core policy decisions
+- **Getting Started:** `qms-cli/docs/getting-started.md` — First-time CLI setup
+- **CLI Reference:** `qms-cli/docs/cli-reference.md` — Every command and flag
 
 ## License
 

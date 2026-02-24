@@ -1,3 +1,6 @@
 [submodule "qms-cli"]
 	path = qms-cli
 	url = https://github.com/whharris917/qms-cli.git
+[submodule "Quality-Manual"]
+	path = Quality-Manual
+	url = https://github.com/whharris917/quality-manual.git
